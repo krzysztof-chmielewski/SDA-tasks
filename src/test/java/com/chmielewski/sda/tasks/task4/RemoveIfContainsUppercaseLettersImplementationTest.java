@@ -35,6 +35,6 @@ public class RemoveIfContainsUppercaseLettersImplementationTest {
         List<String> result = new RemoveIfContainsUppercaseLettersImplementation().removeIfContainsUppercaseLetters(
                 Arrays.asList("REMOVE123ME123", "do_not_remove_me123", "A", "abc", "123asdqwe"));
         assertThat(result.size(), Is.is(3));
-        assertThat(result, Is.is( Arrays.asList("do_not_remove_me123", "abc", "123asdqwe")));
+        assertThat(result, Is.is(Arrays.asList("do_not_remove_me123", "abc", "123asdqwe")));
     }
 }
